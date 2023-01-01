@@ -1,5 +1,6 @@
 <script>
-	export let name;
+	 let Name = 'Juhee';
+	 $: name = Name
 </script>
 
 <main>
