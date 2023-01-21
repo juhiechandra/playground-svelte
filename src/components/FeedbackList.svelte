@@ -1,8 +1,8 @@
 <script>
+  import {FeedbackStore} from '../stores'
+  import { fade, scale } from 'svelte/transition'
+  import FeedbackItem from './FeedbackItem.svelte'
 
-    import FeedbackItem from "./FeedbackItem.svelte";
-    import {FeedbackStore} from "../stores/"
-    import { fade, scale } from 'svelte/transition'
 
 </script>
 
@@ -11,4 +11,3 @@
   <FeedbackItem item={fb} />
 </div>
 {/each}
-

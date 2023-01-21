@@ -1,16 +1,14 @@
 <div class="card">
-    <slot><!-- optional fallback --></slot>
+  <slot></slot>
 </div>
 
 <style>
-    .card { 
-        background-color: rgb(0, 0, 0);
-        color: #333;
-        border-radius: 15px;
-        padding: 50px 40px;
-        margin: 20px 0px;
-        position: relative;
-        text-decoration-color: cornsilk;
-    }
+  .card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 20px 0;
+    position: relative;
+  }
 </style>
-

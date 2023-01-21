@@ -1,17 +1,11 @@
 <script>
- import FeedbackList from "./components/FeedbackList.svelte";
- import FeedbackForm from "./components/FeedbackForm.svelte";
- import FeedbackStats from "./components/FeedbackStats.svelte";
+	import FeedbackForm from './components/FeedbackForm.svelte'
+	import FeedbackList from './components/FeedbackList.svelte'
+	import FeedbackStats from './components/FeedbackStats.svelte'
 </script>
 
 <main class="container">
-
 	<FeedbackForm />
-	<FeedbackList />
 	<FeedbackStats />
-
+	<FeedbackList />
 </main>
-
-<style>
-	
-</style>
